@@ -9,27 +9,23 @@
 
 /* Zona Logo y titulo */
 
+body{
+    background-color: #9398fcdc;
+}
+
 .header{
     background-color: #5559fc;
 }
 
-.header .logo-link,h1,a{
+.header .logo-link,a{
     color: white;
     text-decoration: none;
 }
 
-.header-h1{
-    position: relative;
-    left: 2px;
-    top: -60px;
-    transition: none 0s ease 0s;
-    cursor: move;
-    font-size: calc(1em + 1vw);
-}
-
 .header img{
-    width: 150px;
-    left: 100px;
+    margin-left: 25%;
+    margin-top: 10px;
+    width: 50%;
 }
 
 /* Zona navegación */
@@ -46,11 +42,11 @@ nav {
 }
 
 nav li {
-    display: inline-block;
+    display: inline-flex;
 }
 
 nav a {
-    font-size: 20px;
+    font-size: 100%;
     color: black;
     background-color: white;
     margin: 5px;
@@ -63,6 +59,37 @@ nav a {
     -o-border-radius: 5px;
 }
 
-.img-articulo img{
-    width: 200px;
+/* zona main -articulo */
+
+.main-article_contenido figure{
+    margin: 10px;
+}
+
+.main-article_contenido img{
+    float: right;
+    width: 50%;
+}
+
+
+.main-article_contenido{
+    display: inline-flex;
+}
+
+main{
+    text-align: justify;
+    margin-left: 1%;
+    display: inline-flex;
+}
+
+/* zona formulario */
+
+label, span{
+    font-size: 15px;
+    display: block;
+}
+
+/* zona footer */
+
+footer{
+    text-align: center;
 }
