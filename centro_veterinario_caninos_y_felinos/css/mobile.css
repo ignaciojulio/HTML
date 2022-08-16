@@ -1,0 +1,22 @@
+/* lugar para crear variables
+(cosas que se repiten y pueden ser cambiadas mas rápido)
+:root{
+    --ejemplo-para-font-size: 10px;
+    --ejemplo-para-color: #000000;
+    --ejemplo-para-background-color: #b2b4a2;
+} 
+*/
+/* responsive design */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+img{ /* provisional */
+    width: 20rem;
+}
