@@ -1,114 +1,176 @@
 <!DOCTYPE html>
 <!--pagina en español(es)-->
 <html lang="es">
-    <head>
-        <!--meta para caracteres del español-->
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <!--meta de descripción para que sepan de que se trata, y escrito de manera que interese-->
-        <meta name="description" content="Centro Veterinario Caninos y Felinos el mejor lugar para poder cuidar a tus amados peludito, conoce nuestros productos, la guardería o agenda una cita para poder atender a tu querido compañero.">
-        <!--meta para que los boot ayuden a posicionar de primeras en la busquedas-->
-        <meta name="roobts" content="index,follow">
-        <!--meta que ayuda a la escala de diferentes pantallas (responsive design)-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Caninos y Felinos</title>
-        <!--hipervínculo que conecta los estilos-->
-        <link rel="stylesheet" href="./css/style.css">
-    </head>
-    <body>
-        <!--Sección superior del website-->
-        <header style="border: black 2px solid; margin: 5px;">
-            <!--titulo y logo -->
-            <section style="border: black 2px solid; margin: 5px; display: -webkit-flex;">
-                <figure>
-                    <img src="#" alt="Logo del Centro Veterinario Caninos y Felinos">
+
+<head>
+    <!--meta para caracteres del español-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--meta de descripción para que sepan de que se trata, y escrito de manera que interese-->
+    <meta name="description"
+        content="Centro Veterinario Caninos y Felinos el mejor lugar para poder cuidar a tus amados peludito, conoce nuestros productos, la guardería o agenda una cita para poder atender a tu querido compañero.">
+    <!--meta para que los boots ayuden a posicionar de primeras en la búsqueda-->
+    <meta name="robots" content="index,follow">
+    <!--meta que ayuda a la escala de diferentes pantallas (responsive design)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caninos y Felinos</title>
+    <!-- Mobile First -->
+    <link rel="stylesheet" href="./css/mobile.css"><!-- principal css celulares -->
+    <!-- segundo css para tabletas -->
+    <link rel="stylesheet" href="./css/tablet.css" media="screen and (min-width: 768px)">
+    <!-- tercer y ultimo css para desktop y en adelante -->
+    <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width: 1024px)">
+</head>
+
+<body>
+    <!--Sección superior del website-->
+    <header class="header">
+        <!--logo -->
+        <section class="header-logo">
+            <!--zona para recargar o ir al home-->
+            <a class="header-link-logo" href="./index.html">
+                <figure class="figure-logo">
+                    <img class="header_img-logo" src="./img/logo.svg"
+                        alt="Logo del Centro Veterinario Caninos y Felinos"
+                        title="Logo del Centro Veterinario Caninos y Felinos">
                 </figure>
-                <h1 id="titulo">Centro Veterinario Caninos y Felinos</h1>
-            </section>
-            <!--Sección de navegación-->
-            <section style="margin: 5px; text-align: center; border: black 2px solid">
-                <nav>
-                    <!--Enlaces/links que nos permitirán movernos entre páginas-->
-                    <a href="#">Servicios</a>
-                    <a href="#">Productos</a>
-                    <a href="#">Guardería</a>
-                    <a href="#">Promociones</a>
-                </nav> 
-            </section>
-        </header>
+            </a>
+        </section>
+        <!--Sección de navegación-->
+        <nav class="header-nav">
+            <!--Enlaces/links que nos permitirán movernos entre páginas en listas desordenadas-->
+            <ul class="header-nav_contenedor">
+                <li class="header-nav_item Servicios"><a href="#">Servicios</a></li>
+                <li class="header-nav_item Productos"><a href="#">Productos</a></li>
+                <li class="header-nav_item Guardería"><a href="#">Guardería</a></li>
+                <li class="header-nav_item Promociones"><a href="#">Promociones</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <!--Sección del contenido central del website-->
-        <main  style=" border: black 2px solid; margin: 5px; display: -webkit-flex;">
-            <!--Sección de articulos-->
-            <section style="border: black 2px solid; margin: 5px; padding: 10px; ">
-                <!--titulo de los articulos-->
-                <header>
-                    <h3>Recomendaciones para cuidar a tu peludito</h3>
+    <!--Sección del contenido central del website-->
+    <main class="main">
+        <!--Sección de artículos-->
+        <section class="main-artículos">
+            <!--titulo de los artículos-->
+            <header class="main-header_titulo">
+                <h2>Recomendaciones para cuidar a tu peludito</h2>
+            </header>
+
+            <hr>
+            <!--separator visual-->
+
+            <!--primer articulo-->
+            <article class="main-article_articulo">
+                <!--cabecera de articulo-->
+                <header class="main-article_titulo">
+                    <!--titulo-->
+                    <h3 class="main-article_titulo-h3">
+                        ¿Cómo Educar a Tu Perro?
+                    </h3>
                 </header>
+                <!-- division para control de css -->
+                <div class="main-article_contenido">
+                    <!--párrafo del articulo-->
+                    <p class="main-article-contenido_parrafo">
+                        La educación de perro es un punto inicial de objeción, al tomar la decisión de tener una mascota
+                        en tu hogar te surgen dudas de cómo harás para que su comportamiento sea el indicado y que su
+                        presencia no cause mayores estragos.<br>Sin embargo, una cosa es decirlo y otra completamente
+                        diferente es llegar a la práctica. <br> Por eso, hoy quisimos crear este artículo con el fin de
+                        entregarte los mejores tips y consejos que te permitan educar a tu mascota de la manera
+                        correcta.<br>
+                    </p>
+                    <!--Enlace/link que lleva a mostrar mas información-->
+                    <a class="main-article-contenido_ver-mas"
+                        href="https://blog.laika.com.co/como-educar-a-tu-perro/?wpsrc=Google%20AdWords&wpcid=17571970270&wpsnetn=x&wpkwn=&wpkmatch=&wpcrid=&wpscid=&wpkwid=&&device=c&keyword=&placement=&adgroup=&campaign=17571970270&gclid=Cj0KCQjwxb2XBhDBARIsAOjDZ34KKJ__B6_VfuiYvGFN7p9ZwdpeS1wgW9BQkFB6tZikvv3VSYlx5ToaAubMEALw_wcB">
+                        Ver mas...
+                    </a>
+                    <!--imagen que acompaña el Articulo-->
+                    <figure class="main-article-contenido_figure">
+                        <img class="main-article-contenido_figure-img" src="./img/primer_articulo.jpg"
+                            alt="Perro dando la pata a su dueño" title="Perro dando la pata a su dueño">
+                    </figure>
+                </div>
+            </article>
 
-                <hr><!--ceparador visual-->
+            <hr>
+            <!--separador visual-->
 
-                <!--primer articulo-->
-                <article>
-                    <!--cabecera de articulo-->
-                    <header>
-                        <!--titulo-->
-                        <h4 style="clear: both;">
-                            <!--imagen que acompaña el Ariculo-->
-                            <figure style="float: right; margin: 5px;">
-                                <img  src="#" alt="perro" >
-                            </figure>
-                            titulo
-                        </h4>
-                    </header>
-                    <!--parrafo del articulo-->
-                    <p>parrafo</p>
-                    <!--Enlace/link que lleva a mostrar mas informacion-->
-                    <p><a href="#">Ver mas...</a></p>
-                </article>
+            <!--segundo articulo-->
+            <article class="main-article_articulo">
+                <!--cabecera de articulo-->
+                <header class="main-article_titulo">
+                    <!--titulo-->
+                    <h3 class="main-article_titulo-h3">
+                        ¿Cómo Cuidar Un Gato Siamés?
+                    </h3>
+                </header>
+                <!-- division para control de css -->
+                <div class="main-article_contenido">
+                    <!--párrafo del articulo-->
+                    <p class="main-article-contenido_parrafo">
+                        Si quieres que tu mascota viva muchos años, es indispensable que conozcas aquellas cosas que le
+                        hacen bien a su salud y cuáles no. Si bien existen coincidencias entre algunas especies, también
+                        hay diferencias.<br>Con lo cual, resulta interesante que investigues particularmente las
+                        necesidades
+                        del animal que te acompaña, de acuerdo con sus características. Por ejemplo: ¿Cómo cuidar un
+                        gato
+                        siamés?<br>
+                    </p>
+                    <!--Enlace/link que lleva a mostrar mas información-->
+                    <a class="main-article-contenido_ver-mas"
+                        href="https://blog.laika.com.co/como-cuidar-un-gato-siames-datos-practicos/">
+                        Ver mas...
+                    </a>
+                    <!--imagen que acompaña el Articulo-->
+                    <figure class="main-article-contenido_figure">
+                        <img class="main-article-contenido_figure-img" src="./img/segundo-articulo.jpg"
+                            alt="Gato Siameses" title="Gato Siamés">
+                    </figure>
+                </div>
+            </article>
+        </section>
 
-                <hr><!--ceparador visual-->
+        <!--Sección del formulario para citas medias-->
+        <section class="main-formulario">
+            <h3 class="main-formulario_titulo">Solicitar cita medica</h3>
+            <form action="#" class="main-formulario_form">
+                <label for="Mascota" class="main-formulario_item Mascota">
+                    <span class="formulario-item_span">Mascota:</span>
+                    <input class="formulario-item_input" type="text" name="Mascota" id="Mascota" autocomplete="name"
+                        required>
+                </label>
+                <label for="Edad" class="main-formulario_item Edad">
+                    <span class="formulario-item_span">Edad:</span>
+                    <input class="formulario-item_input" type="number" name="Edad" id="Edad" required>
+                </label>
+                <label for="Raza" class="main-formulario_item Raza">
+                    <span class="formulario-item_span">Raza:</span>
+                    <input class="formulario-item_input" type="text" name="Raza" id="Raza" autocomplete="name" required>
+                </label>
+                <label for="Fecha" class="main-formulario_item Fecha">
+                    <span class="formulario-item_span">Fecha:</span>
+                    <input class="formulario-item_input" type="datetime-local" name="Fecha" id="Fecha" required>
+                </label>
+                <label for="Amo" class="main-formulario_item Amo">
+                    <span class="formulario-item_span">Amo:</span>
+                    <input class="formulario-item_input" type="text" name="Amo" id="Amo" autocomplete="name" required>
+                </label>
+                <input class="main-formulario_boton-enviar" type="submit" id="botonFormulario">
+            </form>
+        </section>
+    </main>
 
-                <!--segundo articulo-->
-                <article>
-                    <!--cabecera de articulo-->
-                    <header>
-                        <!--titulo-->
-                        <h4 style="clear: both;">
-                            <!--imagen que acompaña el Ariculo-->
-                            <figure style="margin: 5px; float: right; ">
-                                <img  src="#" alt="gato" >
-                            </figure>
-                            titulo
-                        </h4>
-                    </header>
-                    <!--parrafo del articulo-->
-                    <p>parrafo</p>
-                    <!--Enlace/link que lleva a mostrar mas informacion-->
-                    <p><a href="#">Ver mas...</a></p>
-                </article>
-            </section>
+    <!--Sección final de nuestro website-->
+    <footer class="footer">
+        <h3 class="footer-titulo">Contáctenos</h6>
+            <p class="footer-informacion">
+                Linea gratuita
+                <span class="footer-informacion_numero" id="informacion_numero">018000-00001</span>
+                <br>Correo:
+                <span class="footer-informacion_correo" id="informacion_correo">preguntas@coninosyfelinos.com</span>
+            </p>
+    </footer>
+</body>
 
-            <!--Sección del formulario para citas medias-->
-            <section style="border: black 2px solid; margin: 10px;">
-                <form action="#" style="margin: 10px;">
-                    <h3 style="text-align: center;">solicitar cita medica</h3>
-                    <p>Mascota: <input type="text" value="Ingrese Nombre"></p>
-                    <p>Edad: <input type="number"></p>
-                    <p>Raza: <input type="text" value="Ingrese Raza"></p>
-                    <p>Fecha: <input type="date"></p>
-                    <p>Hora: <input type="time"></p>
-                    <p>Amo: <input type="text" value="Ingrese Nombre"></p>
-                    <input type="button" value="VALIDAR CITA">
-                </form>
-            </section>
-        </main>
-        
-        <!--Sección final de nuestro website-->
-        <footer style="border: black 2px solid; margin: 5px; text-align: center; ">
-            <h3>Contactanos</h6>
-            <p>Linea gratuita 018000-00001</p>
-            <p>Correo: preguntas@coninosyfelinos.com</p>
-        </footer>
-    </body>
 </html>
