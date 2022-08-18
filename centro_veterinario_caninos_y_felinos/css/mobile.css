@@ -4,19 +4,82 @@
     --ejemplo-para-font-size: 10px;
     --ejemplo-para-color: #000000;
     --ejemplo-para-background-color: #b2b4a2;
+    
+    1 #809BFC
+    2 #73C4FA
+    3 #39F5F1
+    4 #43FEB3
+    5 #53FA76 
+
 } 
 */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap');
 /* responsive design */
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-html{
+html {
     font-size: 62.5%;
 }
 
-img{ /* provisional */
-    width: 20rem;
+/* Sección header */
+.header {
+    background-color: #73C4FA;
+}
+
+.header-logo {
+    width: 100vw;
+}
+
+.header-nav {
+    padding: 0.5rem;
+    list-style: none;
+    text-align: center;
+}
+
+.header-nav_item{
+    display: inline-block;
+    margin: 0.5rem 0rem;
+    padding: 0.5rem 1rem;
+    background-color: #4bb3f8;
+    border-top-right-radius: 4rem;
+    border-bottom-left-radius: 4rem;    
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+a {
+    font-size: 1.2rem;
+    font-family: 'Courgette';
+    text-decoration: none;
+    color: white;
+}
+
+.header-nav a:active {
+    color: #43FEB3;
+}
+
+
+/* main */
+
+.main-header_titulo.main-article_titulo-h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 1rem;
+}
+
+
+.main-article-contenido_figure-img {
+    width: 50vw;
+    margin: 0.5rem;
+    border-radius: 2.5rem;
+    -webkit-border-radius: 2.5rem;
+    -moz-border-radius: 2.5rem;
+    -ms-border-radius: 2.5rem;
+    -o-border-radius: 2.5rem;
 }
