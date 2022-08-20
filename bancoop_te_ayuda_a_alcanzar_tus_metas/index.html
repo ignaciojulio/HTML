@@ -8,14 +8,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <!--meta de descripción para que sepan de que se trata, y escrito de manera que interese-->
   <meta name="description"
-      content="Centro Veterinario Caninos y Felinos el mejor lugar para poder cuidar a tus amados peludito, conoce nuestros productos, la guardería o agenda una cita para poder atender a tu querido compañero.">
+    content="Centro Veterinario Caninos y Felinos el mejor lugar para poder cuidar a tus amados peludito, conoce nuestros productos, la guardería o agenda una cita para poder atender a tu querido compañero.">
   <!--meta para que los boots ayuden a posicionar de primeras en la búsqueda-->
   <meta name="robots" content="index,follow">
   <!--meta que ayuda a la escala de diferentes pantallas (responsive design)-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- icono de la pestaña-->
   <link rel="icon" href="3281306.png">
-  <title>BanCoop</title>  
+  <title>BanCoop</title>
   <!-- Mobile First -->
   <link rel="stylesheet" href="./css/Estilos.css"><!-- principal css celulares -->
   <!-- segundo css para tabletas -->
@@ -26,23 +26,40 @@
 </head>
 
 <body>
-  <header>
-
-    <figure><br>
-      <img src="./img/desa.png" alt="logotipo de invie" width="150" height="150">
-      <div></div>
-
-
-      <p1>Te ayuda a alcanzar tus metas</p1>
-    </figure>
-
+  <header class="header">
+    <section class="logo">
+      <figure class="logo-figure">
+        <img class="logo-figure-img" src="./img/desa.png" alt="logotipo del BanCoop">
+      </figure>
+    </section>
+    
+    <section class="navegacion">
+      <nav>
+        <ul>
+          <li class="boton-navegacion boton-navegacion-primary">
+            <a href="#">Créditos</a>
+          </li>
+          <li class="boton-navegacion boton-navegacion-secondary">
+            <a href="#">leasing</a>
+          </li>
+          <li class="boton-navegacion boton-navegacion-success">
+            <a href="#">Ahorros</a>
+          </li>
+          <li class="boton-navegacion boton-navegacion-danger">
+            <a href="#">Servicio al cliente</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
   </header>
-  <form>
 
+  <main>
+    
+  <section class="formulario">
     <div class="mb-3">
       <p1> Igrese a su cuenta</p1>
-      <br>
-      <br>
+      
+      
       <label for="exampleInputEmail1" class="form-label">Dirección de correo electronico</label>
       <div></div>
       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -59,41 +76,135 @@
       <input type="checkbox" class="form-check-input" id="exampleCheck1">
       <label class="form-check-label" for="exampleCheck1">Recordar datos</label>
     </div>
-    <button type="submit" class="btn btn-primary">Ingresar</button>
-  </form> <br>
-  <br>
-  <button type="button" class="btn btn-primary">Créditos</button>
-  <button type="button" class="btn btn-secondary">leasing</button>
-  <button type="button" class="btn btn-success">Ahorros</button>
-  <button type="button" class="btn btn-danger">Servicio al cliente</button> <br>
-
-  <h1>Productos</h1> <br>
-  <h2>Pago de servicios</h2>
-  <p>Es el servicio que te permite realizar tus compras y pagos a través de internet debitando
-    los recursos en línea de tu cuenta de ahorros, corriente o deposito electrónico</p><br>
-
-  <h2>créditos hipotecarios y préstamos para autos</h2>
-  <h3>Cumple tu sueño de tener auto propio con BanCoop,
-    y lo mejor de todo no necesitas prendar tu carro, solicita tu crédito de libre inversión.</h3><br>
-  <section>
-    <footer>
-      <a href="mailto">más información
-
-      </a>
-    </footer>
+    <button type="submit" class="boton-navegacion boton-navegacion-primary">Ingresar</button>
+    </form> 
   </section>
+  
+    <section class="Main content">
 
-  <h2>Solicita tu tarjeta débito o crédito</h2>
-  <h3>Tarjeta de Débito CoopCard comprometida con el planeta. ¡Recibe tus extractos digitales! ¡Estás a pocos clics!
-    Solicita tu
-    tarjeta de crédito CoopCard y disfruta sus beneficios. Asistencia Internacional. Pago Fácil</h3><br>
-  <h2>Pensando en ahorrar?</h2>
-  <h3>Una Cuenta de Ahorros que se adapta a tus necesidades, y tus metas.
-    Ábrela en BanCoop. Apertura por Internet, en pocos minutos y en simples pasos.
-    Ábrela ahora con BanCoop. Tarjeta de transporte. Evita las filas. Compra con QR. En pocos pasos.</h3><br>
-  <label for="exampleColorInput" class="form-label">Color picker</label>
-  <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#563d7c"
-    title="Choose your color">
+      <article class="articulo primero">
+        <div class="articulo-titulo">
+          <h3 class="articulo-titulo_h3">
+            X
+          </h3>
+        </div>
+        <figure class="articulo-imagen">
+          <img class="articulo-imagen_img" src="X" alt="X">
+        </figure>
+        <div class="articulo-parrafo">
+          <p class="articulo-parrafo_p">
+            X
+          </p>
+        </div>
+      </article>
+
+      <article class="articulo segundo">
+        <div class="articulo-titulo">
+          <h3 class="articulo-titulo_h3">
+            X
+          </h3>
+        </div>
+        <figure class="articulo-imagen">
+          <img class="articulo-imagen_img" src="X" alt="X">
+        </figure>
+        <div class="articulo-parrafo">
+          <p class="articulo-parrafo_p">
+            X
+          </p>
+        </div>
+      </article>
+
+      <article class="articulo tercero">
+        <div class="articulo-titulo">
+          <h3 class="articulo-titulo_h3">
+            X
+          </h3>
+        </div>
+        <figure class="articulo-imagen">
+          <img class="articulo-imagen_img" src="X" alt="X">
+        </figure>
+        <div class="articulo-parrafo">
+          <p class="articulo-parrafo_p">
+            X
+          </p>
+        </div>
+      </article>
+
+      <article class="articulo cuarto">
+        <div class="articulo-titulo">
+          <h3 class="articulo-titulo_h3">
+            X
+          </h3>
+        </div>
+        <figure class="articulo-imagen">
+          <img class="articulo-imagen_img" src="X" alt="X">
+        </figure>
+        <div class="articulo-parrafo">
+          <p class="articulo-parrafo_p">
+            X
+          </p>
+        </div>
+      </article>
+
+
+      <h1>Productos</h1> 
+      <h2>Pago de servicios</h2>
+      <p>Es el servicio que te permite realizar tus compras y pagos a través de internet debitando
+        los recursos en línea de tu cuenta de ahorros, corriente o deposito electrónico</p>
+
+      <h2>créditos hipotecarios y préstamos para autos</h2>
+      <h3>Cumple tu sueño de tener auto propio con BanCoop,
+        y lo mejor de todo no necesitas prendar tu carro, solicita tu crédito de libre inversión.</h3>
+    </section>
+
+    <section class="sidebar">
+        <nav class="">
+          <section>
+            <h4> Transacciones</h4>
+          </section>
+          <ul class="transacciones"> 
+            <li>
+              <a href="#">Banca personal</a>
+            </li>
+            <li>
+              <a href="#">Banca empresarial</a>
+            </li>
+            <li>
+              <a href="#">Banca seguros</a>
+            </li>
+            <li>
+              <a href="#">Pago de facturas</a>
+            </li>        
+          </ul>
+          <section>
+            <h4>Tarjetas de credito</h4>
+          </section>
+          </h4>
+          <ul class="Tarjetas de credito">
+            <li>
+              <a href="#">Credi Visa </a>
+            </li>
+            <li>
+              <a href="#">Cedi Mastercard</a>
+            </li>
+          </ul>
+        </nav>
+    </section>
+
+  </main>
+
+    <section class="footer">
+
+      <section>
+        <h3>contacnto</h3>
+      </section>
+      <section>
+        <p> linea <a href="tel:+123456">123456</a></p>
+      </section>
+      <section>
+        <p>correo <a href="mailto:dgagf@gmai.com">dgagf@gmai.com</a></p>
+      </section>
+    </section>
 
 </body>
 
