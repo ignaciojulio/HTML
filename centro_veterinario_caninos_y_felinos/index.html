@@ -127,34 +127,54 @@
             </article>
         </section>
 
-        <!--Sección del formulario para citas medias-->
-        <section class="main-formulario">
-            <h3 class="main-formulario_titulo">Solicitar cita medica</h3>
-            <form action="#" class="main-formulario_form">
-                <label for="Mascota" class="main-formulario_item Mascota">
-                    <span class="formulario-item_span">Mascota:</span>
-                    <input class="formulario-item_input" type="text" name="Mascota" id="Mascota" autocomplete="name"
-                        required>
-                </label>
-                <label for="Edad" class="main-formulario_item Edad">
-                    <span class="formulario-item_span">Edad:</span>
-                    <input class="formulario-item_input" type="number" name="Edad" id="Edad" required>
-                </label>
-                <label for="Raza" class="main-formulario_item Raza">
-                    <span class="formulario-item_span">Raza:</span>
-                    <input class="formulario-item_input" type="text" name="Raza" id="Raza" autocomplete="name" required>
-                </label>
-                <label for="Fecha" class="main-formulario_item Fecha">
-                    <span class="formulario-item_span">Fecha:</span>
-                    <input class="formulario-item_input" type="datetime-local" name="Fecha" id="Fecha" required>
-                </label>
-                <label for="Amo" class="main-formulario_item Amo">
-                    <span class="formulario-item_span">Amo:</span>
-                    <input class="formulario-item_input" type="text" name="Amo" id="Amo" autocomplete="name" required>
-                </label>
-                <input class="main-formulario_boton-enviar" type="submit" id="botonFormulario">
-            </form>
+        <section class="section-formulario">
+            <div class="container">
+                <div class="form-image">
+                    <img src="./img/undraw_doctors_hwty.svg" alt="">
+                </div>
+                <div class="form">
+                    <form action="#">
+                        <header class="form-header">
+                            <section class="title">
+                                <h1>Solicitar cita medica</h1>
+                            </section>
+                        </header>
+        
+                        <div class="input-group">
+                            <div class="input-box">
+                                <label for="Mascota"><span class="formulario-item_span">Mascota:</span></label>
+                                <input id="Mascota" type="text" name="Mascota" placeholder="Nombre de tu Mascota" required>
+                            </div>
+        
+                            <div class="input-box">
+                                <label for="Edad"><span class="formulario-item_span">Edad:</span></label>
+                                <input id="Edad" type="text" name="Edad" placeholder="Edad de tu Mascota" required>
+                            </div>
+                            <div class="input-box">
+                                <label for="Raza"><span class="formulario-item_span">Raza:</span></label>
+                                <input id="Raza" type="text" name="Raza" placeholder="Raza de tu Mascota" required>
+                            </div>
+        
+                            <div class="input-box">
+                                <label for="Fecha"><span class="formulario-item_span">Fecha:</span></label>
+                                <input id="Fecha" type="datetime-local" name="Fecha" placeholder="Fecha de la Cita" required>
+                            </div>
+        
+                            <div class="input-box">
+                                <label for="Amo"><span class="formulario-item_span">Amo:</span></label>
+                                <input id="Amo" type="text" name="Amo" placeholder="Nombre del Amo" required>
+                            </div>
+        
+                        </div>
+        
+                        <div class="continue-button">
+                            <button><a href="#">Confirmar</a> </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </section>
+        
     </main>
 
     <!--Sección final de nuestro website-->
