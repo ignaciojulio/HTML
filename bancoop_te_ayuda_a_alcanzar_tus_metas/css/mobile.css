@@ -1,0 +1,33 @@
+/* :root{
+    
+} */
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;1,500;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Open Sans', sans-serif;;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/* zona header */
+.logo-figure-img{
+    width: 20vw;
+}
+
+/* zona main */
+.main-form_contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.articulo-header_imagen-img{
+    width: 45vw;
+}
+
+/* zona footer */
