@@ -3,207 +3,213 @@
 <html lang="es">
 
 <head>
-  <!--meta para caracteres del español-->
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!--meta de descripción para que sepan de que se trata, y escrito de manera que interese-->
-  <meta name="description"
-    content="Centro Veterinario Caninos y Felinos el mejor lugar para poder cuidar a tus amados peludito, conoce nuestros productos, la guardería o agenda una cita para poder atender a tu querido compañero.">
-  <!--meta para que los boots ayuden a posicionar de primeras en la búsqueda-->
-  <meta name="robots" content="index,follow">
-  <!--meta que ayuda a la escala de diferentes pantallas (responsive design)-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- icono de la pestaña-->
-  <link rel="icon" href="3281306.png">
-  <title>BanCoop</title>
-  <!-- Mobile First -->
-  <link rel="stylesheet" href="./css/Estilos.css"><!-- principal css celulares -->
-  <!-- segundo css para tabletas -->
-  <!--<link rel="stylesheet" href="" media="screen and (min-width: 768px)"> pendiente -->
-  <!-- tercer y ultimo css para desktop y en adelante -->
-  <!--<link rel="stylesheet" href="" media="screen and (min-width: 1024px)">pendiente -->
+    <!--meta para caracteres del español-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--meta de descripción para que sepan de que se trata, y escrito de manera que interese-->
+    <meta name="description"
+        content="Centro Veterinario Caninos y Felinos el mejor lugar para poder cuidar a tus amados peludito, conoce nuestros productos, la guardería o agenda una cita para poder atender a tu querido compañero.">
+    <!--meta para que los boots ayuden a posicionar de primeras en la búsqueda-->
+    <meta name="robots" content="index,follow">
+    <!--meta que ayuda a la escala de diferentes pantallas (responsive design)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- icono de la pestaña-->
+    <link rel="icon" href="3281306.png">
+    <title>BanCoop</title>
+    <!-- Mobile First -->
+    <link rel="stylesheet" href="./css/Estilos.css"><!-- principal css celulares -->
+    <!-- segundo css para tabletas -->
+    <!--<link rel="stylesheet" href="" media="screen and (min-width: 768px)"> pendiente -->
+    <!-- tercer y ultimo css para desktop y en adelante -->
+    <!--<link rel="stylesheet" href="" media="screen and (min-width: 1024px)">pendiente -->
 
 </head>
 
 <body>
-  <header class="header">
-    <section class="logo">
-      <figure class="logo-figure">
-        <img class="logo-figure-img" src="./img/desa.png" alt="logotipo del BanCoop" width="150" height="150"> <!--Medidas de imagen temporal borrador-->
-      </figure>
-    </section>
-    
-    <section class="navegacion">
-      <nav>
-        <ul>
-          <li class="boton-navegacion boton-navegacion-primary">
-            <a href="#">Créditos</a>
-          </li>
-          <li class="boton-navegacion boton-navegacion-secondary">
-            <a href="#">leasing</a>
-          </li>
-          <li class="boton-navegacion boton-navegacion-success">
-            <a href="#">Ahorros</a>
-          </li>
-          <li class="boton-navegacion boton-navegacion-danger">
-            <a href="#">Servicio al cliente</a>
-          </li>
-        </ul>
-      </nav>
-    </section>
-  </header>
+    <header class="header">
+        <section class="header-logo">
+            <figure class="-header-logo_figure">
+                <!--Medidas de imagen temporal borrador-->
+                <img class="logo-figure-img" src="./img/desa.png" alt="logotipo del BanCoop" width="150" height="150">
+            </figure>
+        </section>
 
-  <main>
-    
-  <section class="formulario">
-    <div class="mb-3">
-      <p1> Igrese a su cuenta</p1>
-      
-      
-      <label for="exampleInputEmail1" class="form-label">Dirección de correo electronico</label>
-      <div></div>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-      <div id="emailHelp" class="form-text"></div>
-    </div>
-    <div class="mb-3">
-      <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-      <div></div>
+        <section class="header-nav">
+            <nav class="nav">
+                <ul class="nav-contenedor">
+                    <li class="nav-contenedor_item Créditos">
+                        <a href="#">Créditos</a>
+                    </li>
+                    <li class="nav-contenedor_item leasing">
+                        <a href="#">leasing</a>
+                    </li>
+                    <li class="nav-contenedor_item Ahorros">
+                        <a href="#">Ahorros</a>
+                    </li>
+                    <li class="nav-contenedor_item Servicio_cliente">
+                        <a href="#">Servicio al cliente</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
 
+    </header>
 
-      <input type="password" class="form-control" id="exampleInputPassword1">
-    </div>
-    <div class="mb-3 form-check">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1">Recordar datos</label>
-    </div>
-    <button type="submit" class="boton-navegacion boton-navegacion-primary">Ingresar</button>
-    </form> 
-  </section>
-  
-    <section class="Main content">
+    <main>
+        <section class="main-form">
+            <form action="#" class="main-form_contenedor">
 
-      <article class="articulo primero">
-        <div class="articulo-titulo">
-          <h3 class="articulo-titulo_h3">
-            Solicita nuestros productos
-          </h3>
-        </div>
-        <figure class="articulo-imagen">
-          <img class="articulo-imagen_img" src="./IMG/1.jpg" alt="imagen solicita nuestos productos" width="250" height="150"> <!--Medidas de imagen temporal borrador-->
-        </figure>
-        <div class="articulo-parrafo">
-          <p class="articulo-parrafo_p">
-            Solicita productos y documentos a través de los canales que tenemos disponibles para tu comodidad, <br> sin necesidad de desplazarte a una Sucursal Física y sin costo.
-            Puedes adquirir productos como <br>
-            tarjetas de crédito, seguros, fondos de inversión y créditos , entre otros. También puedes realizar <br>
-            la solicitud de documentos como referencias bancarias, extractos y movimientos, <br>
-            paz y salvo de productos y copia de transacciones realizadas en Sucursal, entre otros.
-          </p>
-        </div>
-      </article>
+                <header class="main-form_item-header">
+                    <h2 class="main-form_item-titulo">Ingrese a su cuenta</h2>
+                </header>
 
-      <article class="articulo segundo">
-        <div class="articulo-titulo">
-          <h3 class="articulo-titulo_h3">
-            Ahorro estudiantil
-          </h3>
-        </div>
-        <figure class="articulo-imagen">
-          <img class="articulo-imagen_img" src="./IMG/2.jpg" alt="Imagen ahorro estudiantil" width="250" height="150"> <!--Medidas de imagen temporal borrador-->
-        </figure>
-        <div class="articulo-parrafo">
-          <p class="articulo-parrafo_p">
-            Abre la cuenta en una oficina BanCoop presentando el documento de identificación de la persona interesada <br>
-            en el plan de ahorro y aspira a un mejor futuro<br>
-           
-          </p>
-        </div>
-      </article>
+                <label class="main-form_item-label" for="correo">Correo electrónico</label>
+                <input class="main-form_item-input" type="email" name="correo" id="correo" placeholder="ejemplo@email.com">
+                
+                <label class="main-form_item-label" for="Contraseña">Contraseña</label>
+                <input class="main-form_item-input" type="password" name="Contraseña" id="Contraseña">
+                
+                <a class="main-form_item-a" href="#">Recordar datos</a>
+                
+                <button type="submit">Ingresar</button>
+            </form>
+        </section>
 
-      <article class="articulo tercero">
-        <div class="articulo-titulo">
-          <h3 class="articulo-titulo_h3">
-            Credito vehiculos
-          </h3>
-        </div>
-        <figure class="articulo-imagen">
-          <img class="articulo-imagen_img" src="./IMG/3.jpg" alt="Imagen credito para vehiculo" width="250" height="150"> <!--Medidas de imagen temporal borrador-->
-        </figure>
-        <div class="articulo-parrafo">
-          <p class="articulo-parrafo_p">
-            Te ayudamos en la búsqueda, en la financiación y en el matenimiento de tu vehículo. <br> 
-            En tu movilidad te acompañamos en el proceso de encontrar y comprar vehículo. <br>
-            Asesoría completa. Compra carro, moto o bici. Crédito para Vehículo.
-          </p>
-        </div>
-      </article>
+        <section class="main-articulos">
 
-      <article class="articulo cuarto">
-        <div class="articulo-titulo">
-          <h3 class="articulo-titulo_h3">
-            Credito hipotecario
-          </h3>
-        </div>
-        <figure class="articulo-imagen">
-          <img class="articulo-imagen_img" src="./IMG/4.jpg" alt="Imagen credito hipotecario"width="250" height="150"> <!--Medidas de imagen temporal borrador-->
-        </figure>
-        <div class="articulo-parrafo">
-          <p class="articulo-parrafo_p">
-            Es una alternativa para que cumplas la meta de tener tu casa propia, a través de un préstamo <br> a
-            largo plazo en el que pagas cuotas mensuales y el inmueble queda como garantía.
-          </p>
-        </div>
-      </article>
+            <article class="main-articulos_item nuestros_productos">
+                <header class="articulo-header">
+                    <h3 class="articulo-header_titulo">
+                        Solicita nuestros productos
+                    </h3>
+                    <figure class="articulo-header_imagen">
+                        <!--Medidas de imagen temporal borrador-->
+                        <img class="articulo-header_imagen-img" src="./IMG/1.jpg"
+                            alt="imagen solicita nuestros productos" width="250" height="150">
+                    </figure>
+                </header>
 
-    </section>
+                <div class="articulo-parrafo">
+                    <p class="articulo-parrafo_p">
+                        Solicita productos y documentos a través de los canales que tenemos disponibles para tu
+                        comodidad, sin necesidad de desplazarte a una Sucursal Física y sin costo. <br>
+                        Puedes adquirir productos como tarjetas de crédito, seguros, fondos de inversión y créditos ,
+                        entre otros. <br>
+                        También puedes realizar la solicitud de documentos como referencias bancarias, extractos y
+                        movimientos, paz y salvo de productos y copia de transacciones realizadas en Sucursal, entre
+                        otros.
+                    </p>
+                </div>
+            </article>
 
-    <section class="sidebar">
-        <nav class="">
-          <section>
-            <h4> Transacciones</h4>
-          </section>
-          <ul class="transacciones"> 
-            <li>
-              <a href="#">Banca personal</a>
-            </li>
-            <li>
-              <a href="#">Banca empresarial</a>
-            </li>
-            <li>
-              <a href="#">Banca seguros</a>
-            </li>
-            <li>
-              <a href="#">Pago de facturas</a>
-            </li>        
-          </ul>
-          <section>
-            <h4>Tarjetas de credito</h4>
-          </section>
-          </h4>
-          <ul class="Tarjetas de credito">
-            <li>
-              <a href="#">Credi Visa </a>
-            </li>
-            <li>
-              <a href="#">Cedi Mastercard</a>
-            </li>
-          </ul>
-        </nav>
-    </section>
+            <article class="main-articulos_item Ahorro_estudiantil">
+                <div class="articulo-header">
+                    <h3 class="articulo-header_titulo">
+                        Ahorro estudiantil
+                    </h3>
+                </div>
+                <figure class="articulo-header_imagen">
+                    <img class="articulo-header_imagen-img" src="./IMG/2.jpg" alt="Imagen ahorro estudiantil"
+                        width="250" height="150">
+                    <!--Medidas de imagen temporal borrador-->
+                </figure>
+                <div class="articulo-parrafo">
+                    <p class="articulo-parrafo_p">
+                        Abre la cuenta en una oficina BanCoop presentando el documento de identificación de la persona
+                        interesada en el plan de ahorro y aspira a un mejor futuro.
+                    </p>
+                </div>
+            </article>
 
-  </main>
+            <article class="main-articulos_item Crédito_vehicular">
+                <div class="articulo-header">
+                    <h3 class="articulo-header_titulo">
+                        Crédito vehicular
+                    </h3>
+                </div>
+                <figure class="articulo-header_imagen">
+                    <img class="articulo-header_imagen-img" src="./IMG/3.jpg" alt="Imagen crédito para vehículo"
+                        width="250" height="150">
+                    <!--Medidas de imagen temporal borrador-->
+                </figure>
+                <div class="articulo-parrafo">
+                    <p class="articulo-parrafo_p">
+                        Te ayudamos en la búsqueda, en la financiación y en el mantenimiento de tu vehículo. <br>
+                        En tu movilidad te acompañamos en el proceso de encontrar y comprar vehículo. <br>
+                        Asesoría completa. <br>
+                        Compra carro, moto o bici. <br>
+                        Crédito para Vehículo.
+                    </p>
+                </div>
+            </article>
+
+            <article class="main-articulos_item Crédito_hipotecario">
+                <div class="articulo-header">
+                    <h3 class="articulo-header_titulo">
+                        Crédito hipotecario
+                    </h3>
+                </div>
+                <figure class="articulo-header_imagen">
+                    <img class="articulo-header_imagen-img" src="./IMG/4.jpg" alt="Imagen crédito hipotecario"
+                        width="250" height="150">
+                    <!--Medidas de imagen temporal borrador-->
+                </figure>
+                <div class="articulo-parrafo">
+                    <p class="articulo-parrafo_p">
+                        Es una alternativa para que cumplas la meta de tener tu casa propia, a través de un préstamo a
+                        largo plazo en el que pagas cuotas mensuales y el inmueble queda como garantía.
+                    </p>
+                </div>
+            </article>
+
+        </section>
+
+        <section class="main-nav">
+            <nav class="main-nav_contenedor">
+
+                <h4 class="nav-titulo"> Transacciones</h4>
+
+                <ul class="nav-item_contenedor">
+                    <li class="nav-item">
+                        <a href="#">Banca personal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Banca empresarial</a>
+                    </li >
+                    <li class="nav-item">
+                        <a href="#">Banca seguros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Pago de facturas</a>
+                    </li>
+                </ul>
+
+                <h4 class="nav-titulo">Tarjetas de crédito</h4>
+
+                <ul class="nav-item_contenedor">
+                    <li class="nav-item">
+                        <a href="#">Credi Visa </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Cedi Mastercard</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+    </main>
 
     <section class="footer">
 
-      <section>
-        <h3>Contáctenos</h3>
-      </section>
-      <section>
-        <p> linea <a href="tel:+126289900">+126289900</a></p>
-      </section>
-      <section>
-        <p>correo <a href="mailto:soporteBancoop@bancoop.co">soporteBancoop@bancoop.co</a></p>
-      </section>
+        <section>
+            <h3>Contáctenos</h3>
+        </section>
+        <section>
+            <p> linea <a href="tel:+126289900">+126289900</a></p>
+        </section>
+        <section>
+            <p>correo <a href="mailto:soporteBancoop@bancoop.co">soporteBancoop@bancoop.co</a></p>
+        </section>
     </section>
 
 </body>
