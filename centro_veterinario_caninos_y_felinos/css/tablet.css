@@ -6,3 +6,55 @@
     --ejemplo-para-background-color: #b2b4a2;
 } 
 */
+
+*{
+    font-size: 1.6rem;
+}
+.figure-logo {
+  width: 40vw;
+}
+
+.header-nav_item,
+.main-article-contenido_ver-mas, .botón, a{
+    font-size: 1.8rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: var(--primer-color);
+}
+
+.header-nav {
+  background-color: var(--primer-color);
+}
+
+.header-nav_item {
+  margin: 0.5rem ;
+  padding: auto;
+  background-color: var(--segundo-color);
+}
+
+.main-artículos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-header_titulo {
+    width: 100vw;
+    background-color: var(--segundo-color);
+}
+.main-article-contenido_figure-img {
+    width: 23vw;
+}
+.main-article_articulo {
+    height: 40vh;
+    width: 50vw;
+}
+
+.main-formulario{
+    margin: 2rem auto;
+    width: 60vw;
+}
