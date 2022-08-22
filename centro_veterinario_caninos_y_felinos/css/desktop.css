@@ -6,3 +6,28 @@
     --ejemplo-para-background-color: #b2b4a2;
 } 
 */
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-header_titulo{
+    padding-left: 1rem;
+    text-align: start;
+}
+
+.main-artículos {
+    display: block;
+    width: 50vw;
+}
+
+.main-article_articulo {
+    height: auto;
+    width: 50vw;
+}
+
+.main-formulario {
+    margin: auto;
+    width: 45vw;
+    height: auto;
+}
