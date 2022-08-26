@@ -3,18 +3,18 @@
 <html lang="es">
 
 <head>
-    
+
 
     <!--meta para caracteres del español-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!--meta de descripción para que sepan de que se trata, y escrito de manera que interese-->
-    <meta name="description"
-        content=""> <!--pendiente-->
+    <meta name="description" content="">
+    <!--pendiente-->
     <!--meta para que los boots ayuden a posicionar de primeras en la búsqueda-->
     <meta name="robots" content="index,follow">
     <!--meta que ayuda a la escala de diferentes pantallas (responsive design)-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BanCoop</title>
     <!-- icono de la pestaña-->
     <link rel="icon" href="./img/icono-pestaña.ico">
@@ -24,13 +24,13 @@
     <link rel="stylesheet" href="./css/tablet.css" media="screen and (min-width: 768px)">
     <!-- tercer y ultimo css para desktop y en adelante -->
     <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width: 1024px)">
-    
+
 </head>
 
 <body>
 
-    
-    
+
+
     <header class="header">
         <section class="header-logo">
             <figure class="-header-logo_figure">
@@ -51,7 +51,7 @@
                         <a href="#">Ahorros</a>
                     </li>
                     <li class="nav-contenedor_item Servicio_cliente">
-                        <a href="#">Servicio <br> al <br> cliente</a>
+                        <a href="#">Servicio al cliente</a>
                     </li>
                 </ul>
             </nav>
@@ -59,38 +59,75 @@
 
     </header>
 
-    <main>
-        <section class="main-form">
-            <form action="#" class="main-form_contenedor">
+    <main class="main">
+        <section class="main-forms">
 
-                <header class="main-form_item-header">
-                    <h2 class="main-form_item-titulo">Ingrese a su cuenta</h2>
-                </header>
+            <section class="main-login">
+                <form action="#" class="main-login_contenedor">
 
-                <label class="main-form_item-label" for="correo">Correo electrónico</label>
-                <input class="main-form_item-input" type="email" name="correo" id="correo" placeholder="ejemplo@email.com">
-                
-                <label class="main-form_item-label" for="Contraseña">Contraseña</label>
-                <input class="main-form_item-input" type="password" name="Contraseña" id="Contraseña">
-                
-                <a class="main-form_item-a" href="#">Recordar datos</a>
-                
-                <button type="submit">Ingresar</button>
-            </form>
+                    <header class="main-login_item-header">
+                        <h2 class="main-login_item-titulo">Ingrese a su cuenta</h2>
+                    </header>
+
+                    <label class="main-login_item-label" for="correo">Correo electrónico</label>
+                    <input class="main-login_item-input" type="email" name="correo" id="correo"
+                        placeholder="ejemplo@email.com">
+
+                    <label class="main-login_item-label" for="Contraseña">Contraseña</label>
+                    <input class="main-login_item-input" type="password" name="Contraseña" id="Contraseña" placeholder="Ingrese Contraseña">
+
+                    <a class="main-login_item-a" href="#">Recordar datos</a>
+
+                    <button class="main-login_item-button" type="submit">Ingresar</button>
+                </form>
+            </section>
+
+            <section class="main-nav">
+                <nav class="main-nav_contenedor">
+
+                    <h4 class="nav-titulo"> Transacciones</h4>
+
+                    <ul class="nav-item_contenedor">
+                        <li class="nav-item">
+                            <a href="#">Banca personal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">Banca empresarial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">Banca seguros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">Pago de facturas</a>
+                        </li>
+                    </ul>
+
+                    <h4 class="nav-titulo">Tarjetas de crédito</h4>
+
+                    <ul class="nav-item_contenedor">
+                        <li class="nav-item">
+                            <a href="#"> Visa </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">Mastercard</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
         </section>
 
         <section class="main-articulos">
 
             <article class="main-articulos_item nuestros_productos">
-                <header class="articulo-header">
+                <div class="articulo-header">
                     <h3 class="articulo-header_titulo">
                         Solicita nuestros productos
                     </h3>
-                    <figure class="articulo-header_imagen">
+                </div>
+                <figure class="articulo-header_imagen">
                         <img class="articulo-header_imagen-img" src="./img/nuestros_productos.jpg"
                             alt="imagen solicita nuestros productos">
-                    </figure>
-                </header>
+                </figure>
 
                 <div class="articulo-parrafo">
                     <p class="articulo-parrafo_p">
@@ -112,7 +149,8 @@
                     </h3>
                 </div>
                 <figure class="articulo-header_imagen">
-                    <img class="articulo-header_imagen-img" src="./img/Ahorro_estudiantil.jpg" alt="Imagen ahorro estudiantil">
+                    <img class="articulo-header_imagen-img" src="./img/Ahorro_estudiantil.jpg"
+                        alt="Imagen ahorro estudiantil">
                 </figure>
                 <div class="articulo-parrafo">
                     <p class="articulo-parrafo_p">
@@ -129,7 +167,8 @@
                     </h3>
                 </div>
                 <figure class="articulo-header_imagen">
-                    <img class="articulo-header_imagen-img" src="./img/Crédito_vehicular.jpg" alt="Imagen crédito para vehículo">
+                    <img class="articulo-header_imagen-img" src="./img/Crédito_vehicular.jpg"
+                        alt="Imagen crédito para vehículo">
                 </figure>
                 <div class="articulo-parrafo">
                     <p class="articulo-parrafo_p">
@@ -149,7 +188,8 @@
                     </h3>
                 </div>
                 <figure class="articulo-header_imagen">
-                    <img class="articulo-header_imagen-img" src="./img/Crédito_hipotecario.jpg" alt="Imagen crédito hipotecario">
+                    <img class="articulo-header_imagen-img" src="./img/Crédito_hipotecario.jpg"
+                        alt="Imagen crédito hipotecario">
                 </figure>
                 <div class="articulo-parrafo">
                     <p class="articulo-parrafo_p">
@@ -161,38 +201,7 @@
 
         </section>
 
-        <section class="main-nav">
-            <nav class="main-nav_contenedor">
 
-                <h4 class="nav-titulo"> Transacciones</h4>
-
-                <ul class="nav-item_contenedor">
-                    <li class="nav-item">
-                        <a href="#">Banca personal</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">Banca empresarial</a>
-                    </li >
-                    <li class="nav-item">
-                        <a href="#">Banca seguros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">Pago de facturas</a>
-                    </li>
-                </ul>
-
-                <h4 class="nav-titulo">Tarjetas de crédito</h4>
-
-                <ul class="nav-item_contenedor">
-                    <li class="nav-item">
-                        <a href="#"> Visa </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">Mastercard</a>
-                    </li>
-                </ul>
-            </nav>
-        </section>
 
     </main>
 
@@ -202,10 +211,10 @@
             <h3>Contáctenos</h3>
         </section>
         <section>
-            <p> linea <a href="tel:+126289900">+126289900</a></p>
+            <p> Linea <a href="tel:+126289900">+126289900</a></p>
         </section>
         <section>
-            <p>correo <a href="mailto:soporteBancoop@bancoop.co">soporteBancoop@bancoop.co</a></p>
+            <p>Correo <a href="mailto:soporteBancoop@bancoop.co">soporteBancoop@bancoop.co</a></p>
         </section>
     </section>
 
