@@ -1,8 +1,11 @@
 // asignación de variables
 // formulario
-let sectionValidación = document.getElementById('validación')
-let sectionFormulario = document.getElementById('formulario')
+// manipulación del DOM
+const sectionValidación = document.getElementById('validación')
+sectionValidación.innerHTML= 'Envió exitoso'
+// variables de formulario
 let botónValidarCita = document.getElementById('validar-cita')
+let sectionFormulario = document.getElementById('formulario')
 let botónOtraCita = document.getElementById('otra-cita')
 // primera parte de artículo
 let primer_articulo = document.getElementById('primer_articulo')
@@ -35,7 +38,18 @@ function home() {
     primer_articulo.style.display = 'block'
     botónVerMasPerro.style.display = 'block'
     botónVerMasGato.style.display = 'block'
-    botónOtraCita.style.display = 'none'
+    // sistema de control para no afectar el formulario cuando se contraiga el articulo
+    if (sectionFormulario.style.display == 'none') { //si el formulario esta desplegado
+        sectionFormulario.style.display = 'none'
+        botónOtraCita.style.display = 'block'
+        botónValidarCita.style.display = 'none'
+        sectionValidación.style.display = 'block'
+    } else{ //si el formulario no esta desplegado
+        sectionFormulario.style.display = 'block'
+        botónValidarCita.style.display = 'block'
+        botónOtraCita.style.display = 'none'
+        sectionValidación.style.display = 'none'
+    }
 }
 
 function verMasPerro() {
@@ -52,10 +66,9 @@ function verMasGato() {
 
 function envió(){
     sectionFormulario.style.display = 'none'
-    botónValidarCita.style.display = 'none'
-    // agregar elemento html desde js
-    sectionValidación.innerHTML= 'Envió exitoso'
     botónOtraCita.style.display = 'block'
+    botónValidarCita.style.display = 'none'
+    sectionValidación.style.display = 'block'
 }
 
 function otraCita(){
